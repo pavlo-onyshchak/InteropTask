@@ -1,0 +1,157 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (2b3a4999).
+//
+// c:\users\ponys\documents\visual studio 2015\projects\interoptask1.net\com.c++\debug\interoptask1.net.tlh
+//
+// C++ source equivalent of Win32 type library C:\Users\ponys\Documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.tlb
+// compiler-generated file created 03/12/19 at 16:52:14 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace InteropTask1_Net {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("78b5a5ac-7c24-427f-8ed2-2260eeb5d89b"))
+/* LIBID */ __InteropTask1_Net;
+enum WinForm;
+struct __declspec(uuid("8520fc41-b0b2-4473-a7cb-fdc0721dfb3f"))
+/* dual interface */ Class;
+struct /* coclass */ Class1;
+struct /* coclass */ frmAddStudent;
+struct /* coclass */ frmMain;
+struct /* coclass */ frmRemoveStudent;
+struct /* coclass */ frmShowStudents;
+struct /* coclass */ frmStudentSearch;
+struct __declspec(uuid("1d729757-25f5-3466-ad1b-a36effe1d175"))
+/* dual interface */ _frmAddStudent;
+struct __declspec(uuid("6e01224b-9b22-365c-9e7a-bdfbb928c2f2"))
+/* dual interface */ _frmMain;
+struct __declspec(uuid("dbf876f8-e9a6-3c25-a19f-5bc174f36c87"))
+/* dual interface */ _frmRemoveStudent;
+struct __declspec(uuid("73c3f973-dd89-3d74-9af9-f379a6333520"))
+/* dual interface */ _frmShowStudents;
+struct __declspec(uuid("d32f9ddb-267b-3d99-9d96-1b3b2503786f"))
+/* dual interface */ _frmStudentSearch;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(Class, __uuidof(Class));
+_COM_SMARTPTR_TYPEDEF(_frmAddStudent, __uuidof(_frmAddStudent));
+_COM_SMARTPTR_TYPEDEF(_frmMain, __uuidof(_frmMain));
+_COM_SMARTPTR_TYPEDEF(_frmRemoveStudent, __uuidof(_frmRemoveStudent));
+_COM_SMARTPTR_TYPEDEF(_frmShowStudents, __uuidof(_frmShowStudents));
+_COM_SMARTPTR_TYPEDEF(_frmStudentSearch, __uuidof(_frmStudentSearch));
+
+//
+// Type library items
+//
+
+enum __declspec(uuid("1b807b25-e9b6-4bd4-9f05-7634668f49bc"))
+WinForm
+{
+    WinForm_Main = 1,
+    WinForm_frmAdd = 2,
+    WinForm_frmRemove = 3,
+    WinForm_frmShow = 4,
+    WinForm_frmSearch = 5
+};
+
+struct __declspec(uuid("8520fc41-b0b2-4473-a7cb-fdc0721dfb3f"))
+Class : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT func (
+        enum WinForm value );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_func (
+        /*[in]*/ enum WinForm value ) = 0;
+};
+
+struct __declspec(uuid("e69de4d9-2a65-43f9-8edc-e7416626bfff"))
+Class1;
+    // interface _Object
+    // [ default ] interface Class
+
+struct __declspec(uuid("e23397f6-be20-3901-8dfb-d29a11022a39"))
+frmAddStudent;
+    // [ default ] interface _frmAddStudent
+    // interface _Object
+    // interface IComponent
+    // interface IDisposable
+    // interface IWin32Window
+
+struct __declspec(uuid("3315458a-de17-3f3d-9fb9-a0ece71260a9"))
+frmMain;
+    // [ default ] interface _frmMain
+    // interface _Object
+    // interface IComponent
+    // interface IDisposable
+    // interface IWin32Window
+
+struct __declspec(uuid("45bbd587-0421-3fc2-a4fa-6bc7a27a653b"))
+frmRemoveStudent;
+    // [ default ] interface _frmRemoveStudent
+    // interface _Object
+    // interface IComponent
+    // interface IDisposable
+    // interface IWin32Window
+
+struct __declspec(uuid("134993a0-26b2-3af2-80ca-24e7ea994ae9"))
+frmShowStudents;
+    // [ default ] interface _frmShowStudents
+    // interface _Object
+    // interface IComponent
+    // interface IDisposable
+    // interface IWin32Window
+
+struct __declspec(uuid("3f8adab6-f714-3668-88c5-73e6ef326fcd"))
+frmStudentSearch;
+    // [ default ] interface _frmStudentSearch
+    // interface _Object
+    // interface IComponent
+    // interface IDisposable
+    // interface IWin32Window
+
+struct __declspec(uuid("1d729757-25f5-3466-ad1b-a36effe1d175"))
+_frmAddStudent : IDispatch
+{};
+
+struct __declspec(uuid("6e01224b-9b22-365c-9e7a-bdfbb928c2f2"))
+_frmMain : IDispatch
+{};
+
+struct __declspec(uuid("dbf876f8-e9a6-3c25-a19f-5bc174f36c87"))
+_frmRemoveStudent : IDispatch
+{};
+
+struct __declspec(uuid("73c3f973-dd89-3d74-9af9-f379a6333520"))
+_frmShowStudents : IDispatch
+{};
+
+struct __declspec(uuid("d32f9ddb-267b-3d99-9d96-1b3b2503786f"))
+_frmStudentSearch : IDispatch
+{};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\users\ponys\documents\visual studio 2015\projects\interoptask1.net\com.c++\debug\interoptask1.net.tli"
+
+} // namespace InteropTask1_Net
+
+#pragma pack(pop)

@@ -1,0 +1,6 @@
+c:\users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.dll
+c:\users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.pdb
+c:\users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\obj\Debug\InteropTask1.Net.dll
+c:\users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\obj\Debug\InteropTask1.Net.pdb
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.tlb
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\obj\Debug\InteropTask1.Net.csprojResolveAssemblyReference.cache

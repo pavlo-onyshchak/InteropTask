@@ -1,0 +1,35 @@
+// COMC.idl : IDL source for COM.C++
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (COMC.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(8FCBC4E0-F7FF-499C-A3BA-FCC156910D65),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IInteropTask : IDispatch{
+    [id(1)] HRESULT Call();
+};
+[
+	uuid(A57BF79B-53FD-4B95-A26C-7D211C35FB8C),
+	version(1.0),
+]
+library COMCLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(60F1B737-696D-4454-8DA8-72CB8C011831)
+	]
+	coclass InteropTask
+	{
+		[default] interface IInteropTask;
+	};
+};
+

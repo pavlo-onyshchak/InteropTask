@@ -1,0 +1,18 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (2b3a4999).
+//
+// c:\users\ponys\documents\visual studio 2015\projects\interoptask1.net\com.c++\debug\interoptask1.net.tli
+//
+// Wrapper implementations for Win32 type library C:\Users\ponys\Documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.tlb
+// compiler-generated file created 03/12/19 at 16:52:14 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface Class wrapper method implementations
+//
+
+inline HRESULT Class::func ( enum WinForm value ) {
+    HRESULT _hr = raw_func(value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
