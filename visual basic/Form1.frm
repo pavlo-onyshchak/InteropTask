@@ -1,15 +1,40 @@
 VERSION 5.00
 Begin VB.Form frmMain 
    Caption         =   "Main Form"
-   ClientHeight    =   3015
+   ClientHeight    =   3735
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   4560
    ControlBox      =   0   'False
    LinkTopic       =   "Form1"
-   ScaleHeight     =   3015
+   ScaleHeight     =   3735
    ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
+   Begin VB.TextBox txbWinRegPass 
+      Height          =   285
+      Left            =   2040
+      TabIndex        =   12
+      Text            =   "Text2"
+      Top             =   3240
+      Width           =   1695
+   End
+   Begin VB.TextBox txbWinRegLog 
+      Height          =   285
+      Left            =   2040
+      TabIndex        =   11
+      Text            =   "Text1"
+      Top             =   2880
+      Width           =   1695
+   End
+   Begin VB.OptionButton RadioButton3 
+      Caption         =   "WinReg"
+      Enabled         =   0   'False
+      Height          =   375
+      Left            =   840
+      TabIndex        =   8
+      Top             =   2400
+      Width           =   950
+   End
    Begin VB.OptionButton RadioButton2 
       Caption         =   "C++"
       Enabled         =   0   'False
@@ -57,6 +82,22 @@ Begin VB.Form frmMain
       TabIndex        =   0
       Top             =   360
       Width           =   1935
+   End
+   Begin VB.Label lblWinPass 
+      Caption         =   "WinReg Password"
+      Height          =   255
+      Left            =   360
+      TabIndex        =   10
+      Top             =   3360
+      Width           =   1335
+   End
+   Begin VB.Label lblWinLog 
+      Caption         =   "WinReg Loggin"
+      Height          =   255
+      Left            =   360
+      TabIndex        =   9
+      Top             =   2880
+      Width           =   1335
    End
    Begin VB.Label lblPassword 
       Caption         =   "Password"
@@ -111,8 +152,11 @@ Private Sub btnOK_Click()
  Dim ID As Integer
  If Not aRecSet.EOF Then
  ID = aRecSet.Fields("ID").Value
+ Dim WindowsRegistry As New VBWindowsRegistry.ComClass1
+ WindowsRegistry.Write txbLogin.Text, txbPassword.Text
  RadioButton1.Enabled = True
  RadioButton2.Enabled = True
+ RadioButton3.Enabled = True
  Else
  MsgBox "Failed!", vbDefaultButton1, "Exception"
  End If
@@ -141,4 +185,12 @@ End Sub
 Private Sub RadioButton2_Click()
 Dim f As New COMCLib.InteropTask
  f.Call
+End Sub
+
+Private Sub WinReg_Click()
+
+End Sub
+
+Private Sub RadioButton3_Click()
+
 End Sub

@@ -4,6 +4,7 @@ Reference=*\G{2A75196C-D9EB-4129-B803-931327F72D5C}#2.8#0#..\..\..\..\Program Fi
 Reference=*\G{BED7F4EA-1A96-11D2-8F08-00A0C9A6186D}#2.4#0#..\..\..\..\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb#mscorlib.dll
 Reference=*\G{78B5A5AC-7C24-427F-8ED2-2260EEB5D89B}#1.0#0#..\..\documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.tlb#InteropTask1_Net
 Reference=*\G{A57BF79B-53FD-4B95-A26C-7D211C35FB8C}#1.0#0#..\..\documents\visual studio 2015\Projects\InteropTask1.Net\Debug\COM.C++.dll#COMCLib
+Reference=*\G{888295ED-4AAE-445D-BC2E-CE2B3F7665BA}#1.0#0#..\..\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\bin\Debug\VBWindowsRegistry.tlb#VBWindowsRegistry
 Object={67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0; MSADODC.OCX
 Object={CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0; MSDATGRD.OCX
 Form=Form1.frm

@@ -57,7 +57,8 @@ namespace InteropTask1.Net
                     break;
             }
             string startupPath = System.IO.Directory.GetCurrentDirectory();
-           // frmMain form = new frmMain();
+            // frmMain form = new frmMain();"C:\\Users\\ponys\\Desktop\\visual basic"
+
             //form.Show();
         }
     }

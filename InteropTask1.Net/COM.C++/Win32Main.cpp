@@ -5,9 +5,9 @@
 #include <sqltypes.h>
 #include <sql.h>
 #include <sqlext.h>
+#include<string>
 
 #import "C:\Users\ponys\Documents\visual studio 2015\Projects\InteropTask1.Net\InteropTask1.Net\bin\Debug\InteropTask1.Net.tlb"
-
 
 
 using namespace std;
@@ -140,7 +140,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     if (!myWin->createWindow())
         return 1;
-
     myWin->show(nCmdShow);
 
     return myWin->messages();

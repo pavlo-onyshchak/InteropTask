@@ -1,0 +1,11 @@
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\bin\Debug\VBWindowsRegistry.dll
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\bin\Debug\VBWindowsRegistry.pdb
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\bin\Debug\VBWindowsRegistry.xml
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\obj\Debug\VBWindowsRegistry.vbprojResolveAssemblyReference.cache
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\obj\Debug\VBWindowsRegistry.Resources.resources
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\obj\Debug\VBWindowsRegistry.vbproj.GenerateResource.Cache
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\obj\Debug\VBWindowsRegistry.dll
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\obj\Debug\VBWindowsRegistry.xml
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\obj\Debug\VBWindowsRegistry.pdb
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\bin\Debug\VBWindowsRegistry.dll.config
+C:\Users\ponys\documents\visual studio 2015\Projects\InteropTask1.Net\VBWindowsRegistry\bin\Debug\VBWindowsRegistry.tlb

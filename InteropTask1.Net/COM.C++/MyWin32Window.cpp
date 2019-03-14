@@ -4,7 +4,8 @@
 
 MyWin32Window::MyWin32Window()
 {
-
+    //TCHAR NPath[MAX_PATH];
+    //GetCurrentDirectory(MAX_PATH, NPath);
 }
 
 void MyWin32Window::setHinst(HINSTANCE hInst)
